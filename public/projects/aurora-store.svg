@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#121212"/>
+      <stop offset="1" stop-color="#2f2217"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c26a3b"/>
+      <stop offset="1" stop-color="#1f7a6d"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="600" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <path d="M0 120H960M0 240H960M0 360H960M0 480H960"/>
+    <path d="M160 0V600M320 0V600M480 0V600M640 0V600M800 0V600"/>
+  </g>
+  <circle cx="300" cy="320" r="170" fill="#c26a3b" opacity="0.28" filter="blur(40px)"/>
+  <circle cx="680" cy="200" r="130" fill="#1f7a6d" opacity="0.3" filter="blur(36px)"/>
+  <text x="480" y="300" font-family="monospace" font-size="44" font-weight="700" fill="#f4ecdf" text-anchor="middle" letter-spacing="4">AURORA STORE</text>
+  <text x="480" y="344" font-family="monospace" font-size="16" fill="#a99a89" text-anchor="middle" letter-spacing="8">// 960 x 600 · replace-me</text>
+</svg>

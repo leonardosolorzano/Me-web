@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060d1e"/>
+      <stop offset="1" stop-color="#0e2a52"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#4d8dff"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="600" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <path d="M0 120H960M0 240H960M0 360H960M0 480H960"/>
+    <path d="M160 0V600M320 0V600M480 0V600M640 0V600M800 0V600"/>
+  </g>
+  <circle cx="480" cy="300" r="170" fill="url(#accent)" opacity="0.22" filter="blur(42px)"/>
+  <rect x="380" y="210" width="200" height="140" rx="16" fill="none" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="2"/>
+  <path d="M400 250h60v80h-60zM440 250h30v40h-30zM480 220h50v110h-50z" fill="#4d8dff" opacity="0.6"/>
+  <text x="480" y="430" font-family="monospace" font-size="44" font-weight="700" fill="#e8eeff" text-anchor="middle" letter-spacing="4">ORBIT API</text>
+  <text x="480" y="474" font-family="monospace" font-size="16" fill="#8fa1c7" text-anchor="middle" letter-spacing="8">// 960 x 600 · replace-me</text>
+</svg>

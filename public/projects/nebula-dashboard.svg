@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1230"/>
+      <stop offset="1" stop-color="#1b3a7a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4d8dff"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="600" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.06" stroke-width="1">
+    <path d="M0 120H960M0 240H960M0 360H960M0 480H960"/>
+    <path d="M160 0V600M320 0V600M480 0V600M640 0V600M800 0V600"/>
+  </g>
+  <circle cx="480" cy="260" r="180" fill="url(#accent)" opacity="0.25" filter="blur(40px)"/>
+  <circle cx="760" cy="460" r="120" fill="#38bdf8" opacity="0.2" filter="blur(34px)"/>
+  <text x="480" y="300" font-family="monospace" font-size="44" font-weight="700" fill="#e8eeff" text-anchor="middle" letter-spacing="4">NEBULA DASHBOARD</text>
+  <text x="480" y="344" font-family="monospace" font-size="16" fill="#8fa1c7" text-anchor="middle" letter-spacing="8">// 960 x 600 · replace-me</text>
+</svg>
